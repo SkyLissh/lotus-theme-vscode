@@ -1,0 +1,22 @@
+{
+	"name": "lotus",
+	"displayName": "Lotus",
+	"publisher": "SkyLiss",
+	"description": "Port of original theme from Pycharm",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.58.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Lotus Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Lotus-color-theme.json"
+			}
+		]
+	}
+}
