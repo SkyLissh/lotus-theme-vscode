@@ -1,13 +1,19 @@
-# README
-## This is the README for your extension "lotus"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+![Lotus Logo]("https://github.com/skyliss/lotus-theme-vscode/assets/lotus-card.png")
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+A _minimal zen theme_, based on the theme for JetBrains IDEs. [Lotus Theme](https://plugins.jetbrains.com/plugin/14369-lotus-theme)
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+---
 
-**Enjoy!**
+![Dark Screenshot](https://github.com/skyliss/lotus-theme-vscode/assets/screenshot-dark.png)
+
+![Light Screenshot](https://github.com/skyliss/lotus-theme-vscode/assets/screenshot-light.png)
+
+---
+
+## ⌨️Installation
+
+1. Go to `Extensions`
+2. Search for `Lotus Theme` and click `Install`
+3. Select `Color Theme` and choose `Lotus Dark` or `Lotus Light`
+
+> Font in screenshots: [Cascadia Code](https://fonts.google.com/specimen/Cascadia+Code)
