@@ -1,5 +1,5 @@
 {
-	"name": "lotus",
+	"name": "lotus-theme",
 	"displayName": "Lotus",
 	"publisher": "SkyLiss",
 	"description": "Port of original theme from Pycharm",
@@ -15,7 +15,12 @@
 			{
 				"label": "Lotus Dark",
 				"uiTheme": "vs-dark",
-				"path": "./themes/Lotus-color-theme.json"
+				"path": "./themes/lotus-dark-theme.json"
+			},
+			{
+				"label": "Lotus Light",
+				"uiTheme": "vs",
+				"path": "./themes/lotus-light-theme.json"
 			}
 		]
 	}
