@@ -1,5 +1,9 @@
 ![Lotus Logo](https://raw.githubusercontent.com/SkyLissh/lotus-theme-vscode/main/assets/lotus-card.png)
 
+![Downloads](https://vsmarketplacebadge.apphb.com/downloads/skyliss.lotus-theme.svg)
+![Rating](https://vsmarketplacebadge.apphb.com/rating/skyliss.lotus-theme.svg)
+![Version](https://vsmarketplacebadge.apphb.com/version/skyliss.lotus-theme.svg)
+
 A _minimal zen theme_, based on the theme for JetBrains IDEs. [Lotus Theme](https://plugins.jetbrains.com/plugin/14369-lotus-theme)
 
 ---
