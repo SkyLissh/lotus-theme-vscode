@@ -1,12 +1,12 @@
-![Lotus Logo]("https://github.com/skyliss/lotus-theme-vscode/assets/lotus-card.png")
+![Lotus Logo]("https://github.com/skylissh/lotus-theme-vscode/assets/lotus-card.png")
 
 A _minimal zen theme_, based on the theme for JetBrains IDEs. [Lotus Theme](https://plugins.jetbrains.com/plugin/14369-lotus-theme)
 
 ---
 
-![Dark Screenshot](https://github.com/skyliss/lotus-theme-vscode/assets/screenshot-dark.png)
+![Dark Screenshot](https://github.com/skylissh/lotus-theme-vscode/assets/screenshot-dark.png)
 
-![Light Screenshot](https://github.com/skyliss/lotus-theme-vscode/assets/screenshot-light.png)
+![Light Screenshot](https://github.com/skylissh/lotus-theme-vscode/assets/screenshot-light.png)
 
 ---
 
