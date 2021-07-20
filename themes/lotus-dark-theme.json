@@ -770,7 +770,15 @@
 			"name": "Language variables",
 			"scope": "variable.language",
 			"settings": {
-				"foreground": "#d1d1d1"
+				"foreground": "#fcfcfa",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Variable language dart",
+			"scope": "variable.language.dart",
+			"settings": {
+				"foreground": "#fc9867"
 			}
 		},
 		{
@@ -860,6 +868,14 @@
 			"scope": "support.class.component",
 			"settings": {
 				"foreground": "#55dbe4",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Class name dart",
+			"scope": "support.class.dart",
+			"settings": {
+				"foreground": "#d6acff",
 				"fontStyle": "italic"
 			}
 		},
@@ -2144,7 +2160,7 @@
 		}
 	],
 	"colors": {
-		"foreground": "#121212",
+		"foreground": "#fcfcfa",
 		"focusBorder": "#ff6188",
 		"selection.background": "#b0546b",
 		"scrollbar.shadow": "#ffffff00",

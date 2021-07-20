@@ -770,7 +770,15 @@
 			"name": "Language variables",
 			"scope": "variable.language",
 			"settings": {
-				"foreground": "#d1d1d1"
+				"foreground": "#121212",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Variable language dart",
+			"scope": "variable.language.dart",
+			"settings": {
+				"foreground": "#fc9867"
 			}
 		},
 		{
@@ -868,6 +876,14 @@
 			"scope": "entity.name.type.class.cs",
 			"settings": {
 				"foreground": "#55dbe4"
+			}
+		},
+		{
+			"name": "Class name dart",
+			"scope": "support.class.dart",
+			"settings": {
+				"foreground": "#ab9df2",
+				"fontStyle": "italic"
 			}
 		},
 		{
