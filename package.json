@@ -3,7 +3,7 @@
 	"displayName": "Lotus Theme",
 	"publisher": "SkyLiss",
 	"description": "Lotus Theme for Visual Studio Code",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"engines": {
 		"vscode": "^1.58.0"
 	},
