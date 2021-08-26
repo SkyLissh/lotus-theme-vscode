@@ -58,6 +58,10 @@
 			"foreground": "#fc9867",
 			"fontStyle": "italic"
 		},
+		"razorTagHelperAttribute": {
+			"foreground": "#aae273",
+			"fontStyle": "italic"
+		},
 		// Variables
 		"variable.declaration": {
 			"foreground": "#fcfcfa"
@@ -2133,7 +2137,7 @@
 			"name": "js/ts italic",
 			"scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.language.super",
 			"settings": {
-				"foreground": "#fc9867",
+				"foreground": "#aae273",
 				"fontStyle": "italic"
 			}
 		},
