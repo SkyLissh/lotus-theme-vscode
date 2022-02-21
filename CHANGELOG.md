@@ -6,8 +6,17 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+
 ## [1.0.2] - 2021-08-26
 
 ### Changed
 
 - Colors of the components parameters (Like React and Blazor)
+
+##[1.0.3] - 2022-02-03
+
+### Changed
+
+- Hover text link now are pinky
+- Add background highlight to menu item hover
+
