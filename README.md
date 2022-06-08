@@ -17,7 +17,7 @@ A _minimal zen theme_, based on the theme for JetBrains IDEs. [Lotus Theme](http
 ## ⌨️Installation
 
 1. Go to `Extensions`
-2. Search for `Lotus` and click `Install`
+2. Search for `Lotus` or go [here](https://marketplace.visualstudio.com/items?itemName=SkyLiss.lotus-theme) and click `Install`
 3. Select `Color Theme` and choose `Lotus Dark` or `Lotus Light`
 
 > Font in screenshots: [Cascadia Code](https://github.com/microsoft/cascadia-code)
