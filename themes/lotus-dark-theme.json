@@ -19,7 +19,7 @@
 		},
 		// Object structure
 		"interface": {
-			"foreground": "#d6acff",
+			"foreground": "#55dbe4",
 			"fontStyle": "italic"
 		},
 		"class.declaration": {
@@ -703,14 +703,6 @@
 			}
 		},
 		{
-			"name": "Keywords",
-			"scope": "keyword",
-			"settings": {
-				"foreground": "#ff6188",
-				"fontStyle": "italic"
-			}
-		},
-		{
 			"name": "Namespaces",
 			"scope": "entity.name.namespace",
 			"settings": {
@@ -891,13 +883,6 @@
 			}
 		},
 		{
-			"name": "Class name c#",
-			"scope": "entity.name.type.class.cs",
-			"settings": {
-				"foreground": "#55dbe4"
-			}
-		},
-		{
 			"name": "Type Rust",
 			"scope": "entity.name.type.rust, entity.name.type.numeric.rust, entity.name.type.primitive.rust",
 			"settings": {
@@ -947,7 +932,7 @@
 			"name": "Struct",
 			"scope": "entity.name.type.struct, entity.name.type.trait",
 			"settings": {
-				"foreground": "#55dbe4"
+				"foreground": "#d6acff"
 			}
 		},
 		{
@@ -1681,6 +1666,7 @@
 				"foreground": "#fcfcfa"
 			}
 		},
+		// C#
 		{
 			"name": "c# storage type",
 			"scope": "storage.type.cs",
@@ -1696,8 +1682,29 @@
 			}
 		},
 		{
-			"name": "arrow operator",
-			"scope": "keyword.operator.arrow",
+			"name": "Class name c#",
+			"scope": "entity.name.type.class.cs",
+			"settings": {
+				"foreground": "#ab9df2"
+			}
+		},
+		{
+			"name": "c# type",
+			"scope": "entity.name.type.cs",
+			"settings": {
+				"foreground": "#d6acff"
+			}
+		},
+		{
+			"name": "c# other object",
+			"scope": "variable.other.object.cs",
+			"settings": {
+				"foreground": "#55dbe4"
+			}
+		},
+		{
+			"name": "c# parameter",
+			"scope": "entity.name.variable.parameter.cs",
 			"settings": {
 				"foreground": "#fc9867"
 			}
@@ -1707,6 +1714,35 @@
 			"scope": "variable.other.object",
 			"settings": {
 				"foreground": "#fcfcfa"
+			}
+		},
+		{
+			"name": "c# namespace",
+			"scope": "entity.name.namespace",
+			"settings": {
+				"foreground": "#acc2ff"
+			}
+		},
+		{
+			"name": "c# enum",
+			"scope": "entity.name.type.enum.cs",
+			"settings": {
+				"foreground": "#55dbe4"
+			}
+		},
+		{
+			"name": "arrow operator",
+			"scope": "keyword.operator.arrow",
+			"settings": {
+				"foreground": "#fc9867"
+			}
+		},
+		{
+			"name": "Keywords",
+			"scope": "keyword",
+			"settings": {
+				"foreground": "#ff6188",
+				"fontStyle": "italic"
 			}
 		},
 		{

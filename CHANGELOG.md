@@ -4,7 +4,14 @@ All notable changes to the "lotus" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [1.0.4] = 2022-07-06
+## [1.1.0] - 2023-09-13
+
+### Changed
+
+- Improved syntax highlighting for C# in dark and white mode
+- Improvements of colors for better readability in white mode
+
+## [1.0.4] - 2022-07-06
 
 ### Changed
 
