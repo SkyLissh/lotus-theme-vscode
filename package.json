@@ -1,33 +1,34 @@
 {
-	"name": "lotus-theme",
-	"displayName": "Lotus Theme",
-	"publisher": "SkyLiss",
-	"description": "Lotus Theme for Visual Studio Code",
-	"version": "1.1.0",
-	"engines": {
-		"vscode": "^1.50.0"
-	},
-	"categories": [
-		"Themes"
-	],
-	"icon": "assets/lotus-logo.png",
-	"homepage": "https://github.com/SkyLissh/lotus-theme-vscode",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/SkyLissh/lotus-theme-vscode.git"
-	},
-	"contributes": {
-		"themes": [
-			{
-				"label": "Lotus Dark",
-				"uiTheme": "vs-dark",
-				"path": "./themes/lotus-dark-theme.json"
-			},
-			{
-				"label": "Lotus Light",
-				"uiTheme": "vs",
-				"path": "./themes/lotus-light-theme.json"
-			}
-		]
-	}
+    "name": "lotus-theme",
+    "displayName": "Lotus Theme",
+    "publisher": "SkyLissh",
+    "description": "Lotus Theme for Visual Studio Code",
+    "version": "1.1.0",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon": "assets/lotus-logo.png",
+    "homepage": "https://github.com/SkyLissh/lotus-theme-vscode",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SkyLissh/lotus-theme-vscode.git"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Lotus Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/lotus-dark-theme.json"
+            },
+            {
+                "label": "Lotus Light",
+                "uiTheme": "vs",
+                "path": "./themes/lotus-light-theme.json"
+            }
+        ]
+    },
+    "license": "MIT"
 }
