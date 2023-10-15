@@ -4,6 +4,14 @@ All notable changes to the "lotus" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.1.1] - 2023-10-14
+
+### Changed
+
+- Added color to constants, this specifically to solve an issue with built-in constants
+  in Python, like `True` and `False`, etc.
+- Added bracket colorization by default, for light and dark mode
+
 ## [1.1.0] - 2023-09-13
 
 ### Changed

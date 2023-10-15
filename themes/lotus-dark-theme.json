@@ -7,7 +7,10 @@
 			"foreground": "#fcfcfa"
 		},
 		"variable.constant": {
-			"foreground": "#fc9867"
+			"foreground": "#ab9df2"
+		},
+		"support.constant": {
+			"foreground": "#ab9df2"
 		},
 		"variable.defaultLibrary": {
 			"foreground": "#fcfcfa"
@@ -276,7 +279,7 @@
 			"name": "js/ts variable.other.constant",
 			"scope": "variable.other.constant",
 			"settings": {
-				"foreground": "#fcfcfa"
+				"foreground": "#ab9df2"
 			}
 		},
 		{
@@ -1865,6 +1868,19 @@
 		// 	}
 		// },
 		{
+			"name": "Go Constant",
+			"scope": ["constant.language.go"],
+			"settings": {
+				"foreground": "#55dbe4"
+			}
+		},
+		{
+			"scope": ["support.constant"],
+			"settings": {
+				"foreground": "#acc2ff"
+			}
+		},
+		{
 			"name": "go operator",
 			"scope": ["keyword.operator.arithmetic.go", "keyword.operator.address.go"],
 			"settings": {
@@ -2454,6 +2470,11 @@
 		"breadcrumb.activeSelectionForeground": "#e0e0e0",
 		"editorGutter.commentRangeForeground": "#d1d1d1",
 		"debugExceptionWidget.background": "#222222",
-		"debugExceptionWidget.border": "#4b4a4ad5"
+		"debugExceptionWidget.border": "#4b4a4ad5",
+		"editorBracketHighlight.foreground1": "#FFF48A",
+		"editorBracketHighlight.foreground2": "#AB8DF2",
+		"editorBracketHighlight.foreground3": "#AAE273",
+		"editorBracketHighlight.foreground4": "#FC9867",
+		"editorBracketHighlight.unexpectedBracket.foreground": "#f03a3a"
 	}
 }

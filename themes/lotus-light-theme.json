@@ -7,7 +7,10 @@
 			"foreground": "#121212"
 		},
 		"variable.constant": {
-			"foreground": "#fc9867"
+			"foreground": "#836df2"
+		},
+		"support.constant": {
+			"foreground": "#836df2"
 		},
 		"variable.defaultLibrary": {
 			"foreground": "#121212"
@@ -276,7 +279,7 @@
 			"name": "js/ts variable.other.constant",
 			"scope": "variable.other.constant",
 			"settings": {
-				"foreground": "#121212"
+				"foreground": "#836df2"
 			}
 		},
 		{
@@ -2453,6 +2456,11 @@
 		"breadcrumb.activeSelectionForeground": "#121212",
 		"editorGutter.commentRangeForeground": "#d1d1d1",
 		"debugExceptionWidget.background": "#ffe9ee",
-		"debugExceptionWidget.border": "#1111112c"
+		"debugExceptionWidget.border": "#1111112c",
+		"editorBracketHighlight.foreground1": "#c4960c",
+		"editorBracketHighlight.foreground2": "#AB8DF2",
+		"editorBracketHighlight.foreground3": "#5cad0a",
+		"editorBracketHighlight.foreground4": "#FC9867",
+		"editorBracketHighlight.unexpectedBracket.foreground": "#f03a3a"
 	}
 }
