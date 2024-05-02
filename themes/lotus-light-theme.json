@@ -28,6 +28,9 @@
 		"class.declaration": {
 			"foreground": "#00bac7"
 		},
+		"class": {
+			"foreground": "#00bac7"
+		},
 		// Functions
 		"method": {
 			"foreground": "#5cad0a"
@@ -113,13 +116,13 @@
 				"foreground": "#9673fa"
 			}
 		},
-		// {
-		// 	"name": "Special cls and self",
-		// 	"scope": "variable.parameter.function.language.special.self.python, variable.parameter.function.language.special.cls.python",
-		// 	"settings": {
-		// 		"foreground": "#0fb7d9"
-		// 	}
-		// },
+		{
+			"name": "Type alias typescript",
+			"scope": "entity.name.type.alias.ts",
+			"settings": {
+				"foreground": "#bb75ff"
+			}
+		},
 		{
 			"name": "storage.modifier.lifetime.rust",
 			"scope": "storage.modifier.lifetime.rust",
@@ -1740,6 +1743,29 @@
 				"foreground": "#0fb7d9"
 			}
 		},
+		// Godot
+		{
+			"name": "Godot Type",
+			"scope": "entity.name.type.class.gdscript",
+			"settings": {
+				"foreground": "#bb75ff"
+			}
+		},
+		{
+			"name": "Godot Constant",
+			"scope": "constant.language.gdscript",
+			"settings": {
+				"foreground": "#836df2"
+			}
+		},
+		{
+			"name": "Godot Class",
+			"scope": "support.class.library.gdscript",
+			"settings": {
+				"foreground": "#bb75ff"
+			}
+		},
+
 		{
 			"name": "arrow operator",
 			"scope": "keyword.operator.arrow",

@@ -4,6 +4,14 @@ All notable changes to the "lotus" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.1.2] - 2024-05-01
+
+### Changed
+
+- Added support for gdscript language (it still needs some work)
+- Fixed Component syntax highlighting for Vue Extension version 2.0.X
+- Added color to type definitions in typescript
+
 ## [1.1.1] - 2023-10-14
 
 ### Changed

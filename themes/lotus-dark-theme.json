@@ -68,6 +68,9 @@
 		// Variables
 		"variable.declaration": {
 			"foreground": "#fcfcfa"
+		},
+		"class": {
+			"foreground": "#60e9f3"
 		}
 	},
 	"tokenColors": [
@@ -104,6 +107,13 @@
 			"scope": "support.variable.magic.python",
 			"settings": {
 				"foreground": "#ab9df2"
+			}
+		},
+		{
+			"name": "Type alias typescript",
+			"scope": "entity.name.type.alias.ts",
+			"settings": {
+				"foreground": "#d6acff"
 			}
 		},
 		{
@@ -229,6 +239,13 @@
 		{
 			"name": "deleted.diff",
 			"scope": "markup.deleted.diff",
+			"settings": {
+				"foreground": "#ab9df2"
+			}
+		},
+		{
+			"name": "Unrecognized HTML Tags",
+			"scope": "meta.tag.other.unrecognized.html.derivative",
 			"settings": {
 				"foreground": "#ab9df2"
 			}
@@ -1130,7 +1147,7 @@
 			"name": "Constants",
 			"scope": "constant",
 			"settings": {
-				"foreground": "#ff6188"
+				"foreground": "#ab9df2"
 			}
 		},
 		{
@@ -1731,6 +1748,28 @@
 			"scope": "entity.name.type.enum.cs",
 			"settings": {
 				"foreground": "#55dbe4"
+			}
+		},
+		// Godot
+		{
+			"name": "Godot Type",
+			"scope": "entity.name.type.class.gdscript",
+			"settings": {
+				"foreground": "#d6acff"
+			}
+		},
+		{
+			"name": "Godot Constant",
+			"scope": "constant.language.gdscript",
+			"settings": {
+				"foreground": "#ab9df2"
+			}
+		},
+		{
+			"name": "Godot Class",
+			"scope": "support.class.library.gdscript",
+			"settings": {
+				"foreground": "#d6aaff"
 			}
 		},
 		{
