@@ -15,23 +15,20 @@
 		"variable.defaultLibrary": {
 			"foreground": "#121212"
 		},
-		// Type annotation
 		"*.typeHint": {
 			"foreground": "#bb75ff",
 			"fontStyle": "italic"
 		},
-		// Object structure
 		"interface": {
 			"foreground": "#0fb7d9",
 			"fontStyle": "italic"
 		},
-		"class.declaration": {
-			"foreground": "#00bac7"
-		},
 		"class": {
 			"foreground": "#00bac7"
 		},
-		// Functions
+		"class.declaration": {
+			"foreground": "#00bac7"
+		},
 		"method": {
 			"foreground": "#5cad0a"
 		},
@@ -50,7 +47,6 @@
 		"function.declaration": {
 			"foreground": "#5cad0a"
 		},
-		// Decorators
 		"function.decorator": {
 			"foreground": "#bb75ff",
 			"fontStyle": "italic"
@@ -59,7 +55,6 @@
 			"foreground": "#bb75ff",
 			"fontStyle": "italic"
 		},
-		// Parameter
 		"parameter.declaration": {
 			"foreground": "#fc9867",
 			"fontStyle": "italic"
@@ -68,7 +63,6 @@
 			"foreground": "#aae273",
 			"fontStyle": "italic"
 		},
-		// Variables
 		"variable.declaration": {
 			"foreground": "#121212"
 		}
@@ -107,6 +101,13 @@
 			"scope": "support.variable.magic.python",
 			"settings": {
 				"foreground": "#836df2"
+			}
+		},
+		{
+			"name": "Type alias typescript",
+			"scope": "entity.name.type.alias.ts,entity.name.type.alias.tsx",
+			"settings": {
+				"foreground": "#bb75ff"
 			}
 		},
 		{
@@ -194,13 +195,6 @@
 				"foreground": "#0fb7d9"
 			}
 		},
-		// {
-		// 	"name": "Text",
-		// 	"scope": "variable.parameter.function",
-		// 	"settings": {
-		// 		"foreground": "#fcfcfa"
-		// 	}
-		// },
 		{
 			"name": "Comment Markup Link",
 			"scope": "comment markup.link",
@@ -475,13 +469,6 @@
 				"foreground": "#5cad0a"
 			}
 		},
-		// {
-		// 	"name": "js/ts class",
-		// 	"scope": "meta.class",
-		// 	"settings": {
-		// 		"foreground": "#0fb7d9"
-		// 	}
-		// },
 		{
 			"name": "entity.name.type.module",
 			"scope": "entity.name.type.module",
@@ -629,14 +616,6 @@
 				"foreground": "#ff6188"
 			}
 		},
-		// {
-		// 	"name": "python parameter",
-		// 	"scope": "variable.parameter.function.language.python",
-		// 	"settings": {
-		// 		"foreground": "#fc9867",
-		// 		"fontStyle": "italic"
-		// 	}
-		// },
 		{
 			"name": "python type",
 			"scope": "support.type.python",
@@ -723,13 +702,6 @@
 				"foreground": "#121212"
 			}
 		},
-		// {
-		// 	"name": "Variables",
-		// 	"scope": "variable",
-		// 	"settings": {
-		// 		"foreground": "#fc9867"
-		// 	}
-		// },
 		{
 			"name": "Variable Property",
 			"scope": "variable.other.property",
@@ -956,13 +928,6 @@
 				"foreground": "#836df2"
 			}
 		},
-		// {
-		// 	"name": "Type Name",
-		// 	"scope": "entity.name.type",
-		// 	"settings": {
-		// 		"foreground": "#d1d1d1"
-		// 	}
-		// },
 		{
 			"name": "Source",
 			"scope": "source",
@@ -1007,14 +972,6 @@
 				"fontStyle": ""
 			}
 		},
-		// {
-		// 	"name": "Storage Python",
-		// 	"scope": "storage.type.string",
-		// 	"settings": {
-		// 		"foreground": "#c4960c",
-		// 		"fontStyle": "italic"
-		// 	}
-		// },
 		{
 			"name": "Storage JS TS",
 			"scope": "token.storage",
@@ -1517,13 +1474,6 @@
 				"foreground": "#d1d1d1"
 			}
 		},
-		// {
-		// 	"name": "php call-function",
-		// 	"scope": "meta.function-call.php,meta.function-call.object.php,meta.function-call.static.php",
-		// 	"settings": {
-		// 		"foreground": "#a9dc76"
-		// 	}
-		// },
 		{
 			"name": "php function-resets",
 			"scope": "punctuation.definition.parameters.begin.bracket.round.php,punctuation.definition.parameters.end.bracket.round.php,punctuation.separator.delimiter.php,punctuation.section.scope.begin.php,punctuation.section.scope.end.php,punctuation.terminator.expression.php,punctuation.definition.arguments.begin.bracket.round.php,punctuation.definition.arguments.end.bracket.round.php,punctuation.definition.storage-type.begin.bracket.round.php,punctuation.definition.storage-type.end.bracket.round.php,punctuation.definition.array.begin.bracket.round.php,punctuation.definition.array.end.bracket.round.php,punctuation.definition.begin.bracket.round.php,punctuation.definition.end.bracket.round.php,punctuation.definition.begin.bracket.curly.php,punctuation.definition.end.bracket.curly.php,punctuation.definition.section.switch-block.end.bracket.curly.php,punctuation.definition.section.switch-block.start.bracket.curly.php,punctuation.definition.section.switch-block.begin.bracket.curly.php,punctuation.definition.section.switch-block.end.bracket.curly.php",
@@ -1580,14 +1530,6 @@
 				"foreground": "#ff6188"
 			}
 		},
-		// {
-		// 	"name": "python function decorator @",
-		// 	"scope": "meta.function.decorator.python",
-		// 	"settings": {
-		// 		"foreground": "#bb75ff",
-		// 		"fontStyle": "italic"
-		// 	}
-		// },
 		{
 			"name": "python function support",
 			"scope": "support.token.decorator.python,meta.function.decorator.identifier.python",
@@ -1743,10 +1685,9 @@
 				"foreground": "#0fb7d9"
 			}
 		},
-		// Godot
 		{
 			"name": "Godot Type",
-			"scope": "entity.name.type.class.gdscript",
+			"scope": "entity.name.type.class.gdscript,entity.name.type.class.builtin.gdscript",
 			"settings": {
 				"foreground": "#bb75ff"
 			}
@@ -1765,7 +1706,20 @@
 				"foreground": "#bb75ff"
 			}
 		},
-
+		{
+			"name": "Godot Decorator",
+			"scope": "entity.name.function.decorator.gdscript",
+			"settings": {
+				"foreground": "#fc9867"
+			}
+		},
+		{
+			"name": "Godot Variable",
+			"scope": "variable.other.gdscript",
+			"settings": {
+				"foreground": "#00bac7"
+			}
+		},
 		{
 			"name": "arrow operator",
 			"scope": "keyword.operator.arrow",
@@ -1885,13 +1839,6 @@
 				"foreground": "#c0aaff"
 			}
 		},
-		// {
-		// 	"name": "go operator",
-		// 	"scope": ["keyword.operator.assignment.go"],
-		// 	"settings": {
-		// 		"foreground": "#d1d1d1"
-		// 	}
-		// },
 		{
 			"name": "go operator",
 			"scope": ["keyword.operator.arithmetic.go", "keyword.operator.address.go"],
@@ -2208,7 +2155,7 @@
 			"name": "js/ts italic",
 			"scope": "entity.other.attribute-name.js,entity.other.attribute-name.ts,entity.other.attribute-name.jsx,entity.other.attribute-name.tsx,variable.language.super",
 			"settings": {
-				"foreground": "#aae273",
+				"foreground": "#5cad0a",
 				"fontStyle": "italic"
 			}
 		},

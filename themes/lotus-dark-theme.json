@@ -15,20 +15,20 @@
 		"variable.defaultLibrary": {
 			"foreground": "#fcfcfa"
 		},
-		// Type annotation
 		"*.typeHint": {
 			"foreground": "#d6acff",
 			"fontStyle": "italic"
 		},
-		// Object structure
 		"interface": {
 			"foreground": "#55dbe4",
 			"fontStyle": "italic"
 		},
+		"class": {
+			"foreground": "#60e9f3"
+		},
 		"class.declaration": {
 			"foreground": "#60e9f3"
 		},
-		// Functions
 		"method": {
 			"foreground": "#aae273"
 		},
@@ -47,7 +47,6 @@
 		"function.declaration": {
 			"foreground": "#aae273"
 		},
-		// Decorators
 		"function.decorator": {
 			"foreground": "#d6acff",
 			"fontStyle": "italic"
@@ -56,7 +55,6 @@
 			"foreground": "#d6acff",
 			"fontStyle": "italic"
 		},
-		// Parameter
 		"parameter.declaration": {
 			"foreground": "#fc9867",
 			"fontStyle": "italic"
@@ -65,12 +63,8 @@
 			"foreground": "#aae273",
 			"fontStyle": "italic"
 		},
-		// Variables
 		"variable.declaration": {
 			"foreground": "#fcfcfa"
-		},
-		"class": {
-			"foreground": "#60e9f3"
 		}
 	},
 	"tokenColors": [
@@ -111,7 +105,7 @@
 		},
 		{
 			"name": "Type alias typescript",
-			"scope": "entity.name.type.alias.ts",
+			"scope": "entity.name.type.alias.ts,entity.name.type.alias.tsx",
 			"settings": {
 				"foreground": "#d6acff"
 			}
@@ -123,13 +117,6 @@
 				"foreground": "#C0AAFF"
 			}
 		},
-		// {
-		// 	"name": "Special cls and self",
-		// 	"scope": "variable.parameter.function.language.special.self.python, variable.parameter.function.language.special.cls.python",
-		// 	"settings": {
-		// 		"foreground": "#55dbe4"
-		// 	}
-		// },
 		{
 			"name": "storage.modifier.lifetime.rust",
 			"scope": "storage.modifier.lifetime.rust",
@@ -201,13 +188,6 @@
 				"foreground": "#55dbe4"
 			}
 		},
-		// {
-		// 	"name": "Text",
-		// 	"scope": "variable.parameter.function",
-		// 	"settings": {
-		// 		"foreground": "#fcfcfa"
-		// 	}
-		// },
 		{
 			"name": "Comment Markup Link",
 			"scope": "comment markup.link",
@@ -489,13 +469,6 @@
 				"foreground": "#aae273"
 			}
 		},
-		// {
-		// 	"name": "js/ts class",
-		// 	"scope": "meta.class",
-		// 	"settings": {
-		// 		"foreground": "#55dbe4"
-		// 	}
-		// },
 		{
 			"name": "entity.name.type.module",
 			"scope": "entity.name.type.module",
@@ -643,14 +616,6 @@
 				"foreground": "#ff6188"
 			}
 		},
-		// {
-		// 	"name": "python parameter",
-		// 	"scope": "variable.parameter.function.language.python",
-		// 	"settings": {
-		// 		"foreground": "#fc9867",
-		// 		"fontStyle": "italic"
-		// 	}
-		// },
 		{
 			"name": "python type",
 			"scope": "support.type.python",
@@ -729,13 +694,6 @@
 				"foreground": "#fcfcfa"
 			}
 		},
-		// {
-		// 	"name": "Variables",
-		// 	"scope": "variable",
-		// 	"settings": {
-		// 		"foreground": "#fc9867"
-		// 	}
-		// },
 		{
 			"name": "Variable Property",
 			"scope": "variable.other.property",
@@ -962,13 +920,6 @@
 				"foreground": "#ab9df2"
 			}
 		},
-		// {
-		// 	"name": "Type Name",
-		// 	"scope": "entity.name.type",
-		// 	"settings": {
-		// 		"foreground": "#d1d1d1"
-		// 	}
-		// },
 		{
 			"name": "Source",
 			"scope": "source",
@@ -1013,14 +964,6 @@
 				"fontStyle": ""
 			}
 		},
-		// {
-		// 	"name": "Storage Python",
-		// 	"scope": "storage.type.string",
-		// 	"settings": {
-		// 		"foreground": "#fff48a",
-		// 		"fontStyle": "italic"
-		// 	}
-		// },
 		{
 			"name": "Storage JS TS",
 			"scope": "token.storage",
@@ -1523,13 +1466,6 @@
 				"foreground": "#d1d1d1"
 			}
 		},
-		// {
-		// 	"name": "php call-function",
-		// 	"scope": "meta.function-call.php,meta.function-call.object.php,meta.function-call.static.php",
-		// 	"settings": {
-		// 		"foreground": "#a9dc76"
-		// 	}
-		// },
 		{
 			"name": "php function-resets",
 			"scope": "punctuation.definition.parameters.begin.bracket.round.php,punctuation.definition.parameters.end.bracket.round.php,punctuation.separator.delimiter.php,punctuation.section.scope.begin.php,punctuation.section.scope.end.php,punctuation.terminator.expression.php,punctuation.definition.arguments.begin.bracket.round.php,punctuation.definition.arguments.end.bracket.round.php,punctuation.definition.storage-type.begin.bracket.round.php,punctuation.definition.storage-type.end.bracket.round.php,punctuation.definition.array.begin.bracket.round.php,punctuation.definition.array.end.bracket.round.php,punctuation.definition.begin.bracket.round.php,punctuation.definition.end.bracket.round.php,punctuation.definition.begin.bracket.curly.php,punctuation.definition.end.bracket.curly.php,punctuation.definition.section.switch-block.end.bracket.curly.php,punctuation.definition.section.switch-block.start.bracket.curly.php,punctuation.definition.section.switch-block.begin.bracket.curly.php,punctuation.definition.section.switch-block.end.bracket.curly.php",
@@ -1586,14 +1522,6 @@
 				"foreground": "#ff6188"
 			}
 		},
-		// {
-		// 	"name": "python function decorator @",
-		// 	"scope": "meta.function.decorator.python",
-		// 	"settings": {
-		// 		"foreground": "#d6acff",
-		// 		"fontStyle": "italic"
-		// 	}
-		// },
 		{
 			"name": "python function support",
 			"scope": "support.token.decorator.python,meta.function.decorator.identifier.python",
@@ -1686,7 +1614,6 @@
 				"foreground": "#fcfcfa"
 			}
 		},
-		// C#
 		{
 			"name": "c# storage type",
 			"scope": "storage.type.cs",
@@ -1750,10 +1677,9 @@
 				"foreground": "#55dbe4"
 			}
 		},
-		// Godot
 		{
 			"name": "Godot Type",
-			"scope": "entity.name.type.class.gdscript",
+			"scope": "entity.name.type.class.gdscript,entity.name.type.class.builtin.gdscript",
 			"settings": {
 				"foreground": "#d6acff"
 			}
@@ -1770,6 +1696,20 @@
 			"scope": "support.class.library.gdscript",
 			"settings": {
 				"foreground": "#d6aaff"
+			}
+		},
+		{
+			"name": "Godot Decorator",
+			"scope": "entity.name.function.decorator.gdscript",
+			"settings": {
+				"foreground": "#60e9f3"
+			}
+		},
+		{
+			"name": "Godot Variable",
+			"scope": "variable.other.gdscript",
+			"settings": {
+				"foreground": "#fcfcfa"
 			}
 		},
 		{
@@ -1899,13 +1839,6 @@
 				"foreground": "#c0aaff"
 			}
 		},
-		// {
-		// 	"name": "go operator",
-		// 	"scope": ["keyword.operator.assignment.go"],
-		// 	"settings": {
-		// 		"foreground": "#d1d1d1"
-		// 	}
-		// },
 		{
 			"name": "Go Constant",
 			"scope": ["constant.language.go"],

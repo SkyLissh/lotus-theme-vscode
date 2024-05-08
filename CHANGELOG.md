@@ -4,6 +4,13 @@ All notable changes to the "lotus" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.1.3] - 2024-05-07
+
+### Changed
+
+- Fixed broken syntax highlighting in all clases to cyan, now every kind of class has it's own color
+- Added better dupport of sytax highlighting for GDScript
+
 ## [1.1.2] - 2024-05-01
 
 ### Changed
