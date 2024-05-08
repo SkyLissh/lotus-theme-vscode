@@ -4,6 +4,14 @@ All notable changes to the "lotus" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.1.4] - 2024-05-08
+
+### Changed
+
+- Remove support for custom components is vue, due to lack of correct semantic tokens the
+  new extension version, to enable syntax highlighting for Vue, use the version 1.8.27 of
+  vue extension
+
 ## [1.1.3] - 2024-05-07
 
 ### Changed

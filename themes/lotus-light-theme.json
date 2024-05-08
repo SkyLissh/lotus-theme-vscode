@@ -23,9 +23,6 @@
 			"foreground": "#0fb7d9",
 			"fontStyle": "italic"
 		},
-		"class": {
-			"foreground": "#00bac7"
-		},
 		"class.declaration": {
 			"foreground": "#00bac7"
 		},
