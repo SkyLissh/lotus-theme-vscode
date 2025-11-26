@@ -4,7 +4,11 @@
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
 		"enumMember": {
-			"foreground": "#121212"
+			"foreground": "#0fb7d9"
+		},
+		"enumMember.defaultLibrary": {
+			"foreground": "#0fb7d9",
+			"fontStyle": "italic"
 		},
 		"variable.constant": {
 			"foreground": "#836df2"
@@ -14,6 +18,10 @@
 		},
 		"variable.defaultLibrary": {
 			"foreground": "#121212"
+		},
+		"builtinType": {
+			"foreground": "#836df2",
+			"fontStyle": "italic"
 		},
 		"*.typeHint": {
 			"foreground": "#bb75ff",
@@ -40,6 +48,9 @@
 		},
 		"function.defaultLibrary": {
 			"foreground": "#836df2"
+		},
+		"function.static": {
+			"foreground": "#5CAD0A"
 		},
 		"function.declaration": {
 			"foreground": "#5cad0a"

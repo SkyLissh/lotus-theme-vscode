@@ -4,6 +4,12 @@ All notable changes to the "lotus" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.1.5] - 2025-11-25
+
+### Changed
+
+- Improved syntax highlighting for Rust language
+
 ## [1.1.4] - 2024-05-08
 
 ### Changed
